@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+
+# Local installers and generated files
+Docker Desktop Installer.exe
+*.log
+__pycache__/
+.DS_Store
