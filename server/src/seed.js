@@ -15,7 +15,7 @@ await sql.query(`
     ('Farhan Ali','farhan@coursegraph.test',2025)
   ON CONFLICT (email) DO NOTHING;
   INSERT INTO faculty(name,dept) VALUES
-    ('Dr. Ananya Rao','Computer Science'), ('Anupama Roy','Computer Science'), ('Dr. Meera Iyer','Information Systems'), ('Dr. Leela Nair','Computer Science')
+    ('Dr. Ananya Rao','Computer Science'), ('Anupama Roy','Computer Science'), ('Dr. Meera Iyer','Information Systems'), ('Dr. Leela Nair','Computer Science'), ('Dr. Reshma', 'Computer Science')
   ON CONFLICT (name,dept) DO NOTHING;
   INSERT INTO rooms(name,capacity,building) VALUES
     ('A-101',60,'Block A'), ('A-202',45,'Block A'), ('B-105',40,'Block B'), ('C-201',50,'Block C')
